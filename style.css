@@ -8,3 +8,14 @@
     list-style-type: none;
     box-sizing: border-box;
 }
+
+.iconify {
+    font-size: 40px;
+    color: black;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

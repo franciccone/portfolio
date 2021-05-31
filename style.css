@@ -9,13 +9,43 @@
     box-sizing: border-box;
 }
 
-.iconify {
-    font-size: 40px;
-    color: black;
+/* --- HOME / HERO SECTION --- */
+
+.hero-list {
+    display: flex;
+    flex-direction: row;
 }
+
+.hero-icon {
+    font-size: 24px !important;
+    color: black;
+    padding: 0.1em;
+}
+
+/* --- CONTACT --- */
 
 .contact-list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.iconify {
+    font-size: 56px;
+    color: black;
+}
+
+/* --- FOOTER --- */
+
+.footer-text {
+    font-size: 1em;
+    text-align: center;
+}
+
+/* --- OTHER --- */
+
+.subtitle {
+    text-transform: uppercase;
+    color: blue;
+    opacity: 0.3;
 }

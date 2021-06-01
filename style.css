@@ -1,5 +1,7 @@
 /* --- RESET --- */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +11,28 @@
     box-sizing: border-box;
 }
 
+/* --- OTHER --- */
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px;
+    margin: 0 3em;
+}
+
+.subtitle {
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: blue;
+    opacity: 0.3;
+}
+
 /* --- HOME / HERO SECTION --- */
+
+.hero {
+    background: url(media/background-light.jpg) no-repeat center/cover;
+    height: 100vh;
+    filter: grayscale(100%);
+}
 
 .hero-list {
     display: flex;
@@ -21,6 +44,10 @@
     color: black;
     padding: 0.1em;
 }
+
+/* --- ABOUT --- */
+
+
 
 /* --- CONTACT --- */
 
@@ -40,12 +67,4 @@
 .footer-text {
     font-size: 1em;
     text-align: center;
-}
-
-/* --- OTHER --- */
-
-.subtitle {
-    text-transform: uppercase;
-    color: blue;
-    opacity: 0.3;
 }

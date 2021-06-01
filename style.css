@@ -45,6 +45,27 @@ body {
     padding: 0.1em;
 }
 
+/* --- PROJECTS --- */
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.project-card {
+    width: 500px;
+    height: auto;
+    margin: 1em;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 1em 0;
+}
+
 /* --- ABOUT --- */
 
 
@@ -67,4 +88,15 @@ body {
 .footer-text {
     font-size: 1em;
     text-align: center;
+}
+
+/* --- MEDIA QUERIES --- */
+
+@media only screen and (min-width: 992px) {
+    .projects-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+    }
 }

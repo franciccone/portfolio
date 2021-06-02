@@ -29,7 +29,7 @@ body {
     font-weight: 900;
     text-transform: uppercase;
     color: #4A4E69;
-    opacity: 0.3;
+    opacity: 0.1;
 }
 
 /* --- HEADER --- */
@@ -121,7 +121,7 @@ body {
 }
 
 .iconify {
-    font-size: 56px;
+    font-size: 72px;
     transition: transform .2s;
 }
 

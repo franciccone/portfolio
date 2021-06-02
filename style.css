@@ -20,12 +20,13 @@ body {
     color: #f2e9e4;
 }
 
-.active, .iconify, .hero-title, .hero-subtitle, .project-title, .project-description, .success, .paragraph, .footer-text {
+.active, .iconify, .hero-title, .hero-subtitle, .project-title, .project-description, .btn-click, .paragraph, .footer-text {
     color: #22223B;
 }
 
 .subtitle {
-    font-size: 3.5em;
+    font-size: 3em;
+    font-weight: 900;
     text-transform: uppercase;
     color: #4A4E69;
     opacity: 0.3;
@@ -41,6 +42,7 @@ body {
     background: url(media/background-light.jpg) no-repeat center/cover;
     height: 100vh;
     filter: grayscale(100%);
+    margin: 0 0 1em 0;
 }
 
 .hero-list {
@@ -69,7 +71,7 @@ body {
 }
 
 .project-img {
-    width: 100%;
+    width: 75%;
     height: auto;
     margin: 0 0 1em 0;
     transition: transform .2s;
@@ -83,6 +85,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 0 0 1em 0;
 }
 
 .btn {
@@ -95,11 +98,11 @@ body {
     width: 50%;
 }
 
-.success {
+.btn-click {
     border-color: #4A4E69;
 }
 
-.success:hover {
+.btn-click:hover {
     background-color: #4A4E69;
     color: white;
 }
@@ -114,7 +117,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0 0 1em 0;
+    margin: 1em 0 2em 0;
 }
 
 .iconify {
@@ -129,7 +132,7 @@ body {
 /* --- FOOTER --- */
 
 .footer-text {
-    font-size: 1em;
+    font-size: 0.7em;
     text-align: center;
 }
 
@@ -141,5 +144,9 @@ body {
         flex-direction: row;
         justify-content: space-around;
         text-align: center;
+    }
+
+    .project-img {
+        width: 100%;
     }
 }

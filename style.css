@@ -19,7 +19,7 @@ body {
     color: #f2e9e4;
 }
 
-.active, .iconify, .hero-title, .hero-subtitle, .project-title, .project-description, .btn-click, .paragraph, .contact-text, .footer-text {
+.active, .iconify, .hero-title, .hero-subtitle, .hero-location, .project-title, .project-description, .btn-click, .paragraph, .contact-text, .footer-text {
     color: #22223B;
 }
 
@@ -39,21 +39,38 @@ body {
 
 /* --- HOME / HERO SECTION --- */
 
-.hero {
+.hero-img {
     background: url(media/background-grey.jpg) no-repeat center/cover;
-    width: 100%;
-    height: 400px;
+    height: 100vh;
     margin: 0 0 1em 0;
     border: solid 3px red;
+}
+
+.hero-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-title {
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .hero-list {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-icon {
-    font-size: 24px !important;
+    font-size: 32px !important;
     padding: 0.1em;
 }
 
@@ -187,10 +204,8 @@ ol, ul {
 @media only screen and (min-width: 992px) {
     .hero {
         background: url(media/background-grey.jpg) no-repeat center/cover;
-        width: 100%;
-        height: 600px;
+        height: 100vh;
         margin: 0 0 1em 0;
-        border: solid 3px red;
     }
 
     .subtitle {

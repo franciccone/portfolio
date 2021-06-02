@@ -39,11 +39,10 @@ body {
 
 /* --- HOME / HERO SECTION --- */
 
-.hero-img {
+.hero {
     background: url(media/background-grey.jpg) no-repeat center/cover;
     height: 100vh;
     margin: 0 0 1em 0;
-    border: solid 3px red;
 }
 
 .hero-txt {

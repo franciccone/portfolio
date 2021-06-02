@@ -16,7 +16,6 @@
 body {
     font-family: 'Inter', sans-serif !important;
     font-size: 16px;
-    margin: 0 3em;
     color: #f2e9e4;
 }
 
@@ -31,6 +30,7 @@ body {
     text-align: center;
     color: #4A4E69;
     opacity: 0.1;
+    margin: 0 1em;
 }
 
 /* --- HEADER --- */
@@ -40,10 +40,11 @@ body {
 /* --- HOME / HERO SECTION --- */
 
 .hero {
-    background: url(media/background-light.jpg) no-repeat center/cover;
-    height: 100vh;
-    filter: grayscale(100%);
+    background: url(media/background-grey.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 400px;
     margin: 0 0 1em 0;
+    border: solid 3px red;
 }
 
 .hero-list {
@@ -64,6 +65,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 3em;
 }
 
 .project-card {
@@ -85,17 +87,38 @@ body {
     transform: scale(1.08);
 }
 
-.btn-group {
+.tech-group, .btn-group {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin: 0 0 1em 0;
 }
 
-.btn {
-    border: 1.5px solid black;
+.tech-box {
+    border: 1.5px solid #9A8C98;
+    border-radius: .25rem;
     background-color: white;
-    color: black;
+    color: #9A8C98;
+    padding: 6px 12px;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 0 0.5em;
+}
+
+.tech-div {
+    border-color: #9A8C98;
+}
+
+.tech-div:hover {
+    background-color: #9A8C98;
+    color: white;
+}
+
+.btn {
+    border: 1.5px solid #22223B;
+    background-color: white;
+    color: #22223B;
     padding: 8px 16px;
     font-size: 16px;
     cursor: pointer;
@@ -113,11 +136,11 @@ body {
 /* --- ABOUT --- */
 
 .mb-5 {
-    margin: 0 0 1em 0 !important;
+    margin: 1em 3em 1em 3em !important;
 }
 
 .btn-cv {
-    margin: 0 0 1em 0;
+    margin: 2em 0 1em 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +154,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 1em 0 2em 0;
+    margin: 1em 3em 2em 3em;
 }
 
 .iconify {
@@ -147,7 +170,7 @@ body {
 /* --- FOOTER --- */
 
 footer {
-    margin: 0 3em 1em 3em;
+    margin: 0 0 1em 0;
 }
 
 .footer-text {
@@ -162,6 +185,14 @@ ol, ul {
 /* --- MEDIA QUERIES --- */
 
 @media only screen and (min-width: 992px) {
+    .hero {
+        background: url(media/background-grey.jpg) no-repeat center/cover;
+        width: 100%;
+        height: 600px;
+        margin: 0 0 1em 0;
+        border: solid 3px red;
+    }
+
     .subtitle {
         font-size: 3em;
         font-weight: 900;

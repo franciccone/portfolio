@@ -121,7 +121,7 @@ body {
 }
 
 .iconify {
-    font-size: 72px;
+    font-size: 64px;
     transition: transform .2s;
 }
 
@@ -131,9 +131,17 @@ body {
 
 /* --- FOOTER --- */
 
+footer {
+    margin: 0 3em 1em 3em;
+}
+
 .footer-text {
     font-size: 0.7em;
     text-align: center;
+}
+
+ol, ul {
+    padding: 0 0;
 }
 
 /* --- MEDIA QUERIES --- */

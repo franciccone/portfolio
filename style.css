@@ -28,6 +28,7 @@ body {
     font-size: 3em;
     font-weight: 900;
     text-transform: uppercase;
+    text-align: center;
     color: #4A4E69;
     opacity: 0.1;
 }
@@ -134,9 +135,9 @@ body {
 }
 
 .iconify {
-    font-size: 64px;
+    font-size: 48px;
     transition: transform .2s;
-    margin: 0 1em;
+    margin: 0 0.5em;
 }
 
 .iconify:hover {
@@ -161,10 +162,25 @@ ol, ul {
 /* --- MEDIA QUERIES --- */
 
 @media only screen and (min-width: 992px) {
+    .subtitle {
+        font-size: 3em;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: left;
+        color: #4A4E69;
+        opacity: 0.1;
+    }
+
     .projects-section {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         text-align: center;
+    }
+
+    .iconify {
+        font-size: 64px;
+        transition: transform .2s;
+        margin: 0 1em;
     }
 }

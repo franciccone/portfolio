@@ -20,7 +20,7 @@ body {
     color: #f2e9e4;
 }
 
-.active, .iconify, .hero-title, .hero-subtitle, .project-title, .project-description, .btn-click, .paragraph, .footer-text {
+.active, .iconify, .hero-title, .hero-subtitle, .project-title, .project-description, .btn-click, .paragraph, .contact-text, .footer-text {
     color: #22223B;
 }
 
@@ -60,18 +60,21 @@ body {
 .projects-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .project-card {
-    width: 500px;
+    width: 100%;
+    max-width: 450px;
     height: auto;
     margin: 1em;
 }
 
 .project-img {
-    width: 75%;
+    width: 100%;
+    max-width: 450px;
     height: auto;
     margin: 0 0 1em 0;
     transition: transform .2s;
@@ -95,7 +98,6 @@ body {
     padding: 8px 16px;
     font-size: 16px;
     cursor: pointer;
-    width: 50%;
 }
 
 .btn-click {
@@ -109,20 +111,32 @@ body {
 
 /* --- ABOUT --- */
 
+.mb-5 {
+    margin: 0 0 1em 0 !important;
+}
 
+.btn-cv {
+    margin: 0 0 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    min-width: 100%;
+}
 
 /* --- CONTACT --- */
 
 .contact-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     margin: 1em 0 2em 0;
 }
 
 .iconify {
     font-size: 64px;
     transition: transform .2s;
+    margin: 0 1em;
 }
 
 .iconify:hover {
@@ -152,9 +166,5 @@ ol, ul {
         flex-direction: row;
         justify-content: space-around;
         text-align: center;
-    }
-
-    .project-img {
-        width: 100%;
     }
 }

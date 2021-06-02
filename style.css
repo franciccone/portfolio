@@ -17,14 +17,23 @@ body {
     font-family: 'Inter', sans-serif !important;
     font-size: 16px;
     margin: 0 3em;
+    color: #f2e9e4;
+}
+
+.active, .iconify, .hero-title, .hero-subtitle, .project-title, .project-description, .success, .paragraph, .footer-text {
+    color: #22223B;
 }
 
 .subtitle {
     font-size: 3.5em;
     text-transform: uppercase;
-    color: blue;
+    color: #4A4E69;
     opacity: 0.3;
 }
+
+/* --- HEADER --- */
+
+
 
 /* --- HOME / HERO SECTION --- */
 
@@ -41,7 +50,6 @@ body {
 
 .hero-icon {
     font-size: 24px !important;
-    color: black;
     padding: 0.1em;
 }
 
@@ -88,12 +96,11 @@ body {
 }
 
 .success {
-    border-color: #04AA6D;
-    color: green;
+    border-color: #4A4E69;
 }
 
 .success:hover {
-    background-color: #04AA6D;
+    background-color: #4A4E69;
     color: white;
 }
 
@@ -112,7 +119,6 @@ body {
 
 .iconify {
     font-size: 56px;
-    color: black;
     transition: transform .2s;
 }
 

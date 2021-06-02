@@ -202,7 +202,7 @@ ol, ul {
 
 @media only screen and (min-width: 992px) {
     .hero {
-        background: url(media/background-grey.jpg) no-repeat center/cover;
+        background: url(media/background-grey.webp) no-repeat center/cover;
         height: 100vh;
         margin: 0 0 1em 0;
     }

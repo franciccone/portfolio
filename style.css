@@ -19,7 +19,7 @@ body {
     color: #f2e9e4;
 }
 
-.active, .iconify, .hero-title, .hero-subtitle, .hero-location, .project-title, .project-description, .btn-click, .paragraph, .contact-text, .footer-text {
+.active, .iconify, .hero-title, .hero-subtitle, .hero-location, .project-title, .project-description, .gtmetrix-link, .btn-click, .paragraph, .contact-text, .footer-text {
     color: #22223B;
 }
 
@@ -97,6 +97,14 @@ body {
 
 .project-img:hover {
     transform: scale(1.08);
+}
+
+.gtmetrix-link {
+    text-decoration-line: none;
+}
+
+.gtmetrix-link:hover {
+    color: #9A8C98;
 }
 
 .tech-group, .btn-group {

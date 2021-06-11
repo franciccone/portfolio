@@ -33,16 +33,6 @@ body {
     margin: 0 1em;
 }
 
-/* --- HEADER --- */
-
-.bg-light {
-    background-color: #EEEFEA;
-}
-
-.navbar-light {
-    background-color: #EEEFEA;
-}
-
 /* --- HOME / HERO SECTION --- */
 
 .hero {

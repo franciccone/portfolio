@@ -33,10 +33,20 @@ body {
     margin: 0 1em;
 }
 
+/* --- HEADER --- */
+
+.bg-light {
+    background-color: #EEEFEA;
+}
+
+.navbar-light {
+    background-color: #EEEFEA;
+}
+
 /* --- HOME / HERO SECTION --- */
 
 .hero {
-    background: url(media/background-grey.webp) no-repeat center/cover;
+    background: url(../media/background-grey.webp) no-repeat center/cover;
     height: 100vh;
     margin: 0 0 1em 0;
 }
@@ -206,7 +216,6 @@ ol, ul {
 
 @media only screen and (min-width: 992px) {
     .hero {
-        background: url(media/background-grey.webp) no-repeat center/cover;
         height: 100vh;
         margin: 0 0 1em 0;
 }

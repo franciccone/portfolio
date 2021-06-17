@@ -71,6 +71,10 @@ body {
 
 /* --- ABOUT --- */
 
+#about {
+    margin: 3em 0;
+}
+
 .mb-5 {
     margin: 1em 3em 1em 3em !important;
 }
@@ -85,6 +89,10 @@ body {
 }
 
 /* --- PROJECTS --- */
+
+#projects {
+    margin: 3em 0;
+}
 
 .projects-section {
     display: flex;
@@ -170,6 +178,10 @@ body {
 
 /* --- CONTACT --- */
 
+#contact {
+    margin: 3em 0;
+}
+
 .contact-list {
     display: flex;
     flex-direction: row;
@@ -190,7 +202,7 @@ body {
 /* --- FOOTER --- */
 
 footer {
-    margin: 0 0 1em 0;
+    margin: 3em 0 1em 0;
 }
 
 .footer-text {

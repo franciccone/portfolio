@@ -1,0 +1,54 @@
+/* --- HOME / HERO SECTION --- */
+
+.hero {
+    background: url(../media/background-grey.webp) no-repeat center/cover;
+    height: 100vh;
+    margin: 0 0 1em 0;
+}
+
+.hero-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-title {
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.hero-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-icon {
+    font-size: 32px !important;
+    padding: 0.1em;
+}
+
+/* --- ABOUT --- */
+
+#about {
+    margin: 3em 0;
+}
+
+.mb-5 {
+    margin: 1em 3em 1em 3em !important;
+}
+
+.btn-cv {
+    margin: 2em 0 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    min-width: 100%;
+}

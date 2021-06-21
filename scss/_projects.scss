@@ -1,0 +1,87 @@
+/* --- PROJECTS --- */
+
+#projects {
+    margin: 3em 0;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 3em;
+}
+
+.project-card {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 1em;
+}
+
+.project-img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 0 0 1em 0;
+    transition: transform .2s;
+}
+
+.project-img:hover {
+    transform: scale(1.08);
+}
+
+.gtmetrix-link {
+    text-decoration-line: none;
+}
+
+.gtmetrix-link:hover {
+    color: #9A8C98;
+}
+
+.tech-group, .btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 1em 0;
+}
+
+.tech-box {
+    border: 1.5px solid #9A8C98;
+    border-radius: .25rem;
+    background-color: white;
+    color: #9A8C98;
+    padding: 6px 12px;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 0 0.5em;
+}
+
+.tech-div {
+    border-color: #9A8C98;
+}
+
+.tech-div:hover {
+    background-color: #9A8C98;
+    color: white;
+}
+
+.btn {
+    border: 1.5px solid #22223B;
+    background-color: white;
+    color: #22223B;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-click {
+    border-color: #4A4E69;
+}
+
+.btn-click:hover {
+    background-color: #4A4E69;
+    color: white;
+}

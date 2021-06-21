@@ -1,268 +1,210 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+/* --- CONTACT --- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap");
+#contact {
+  margin: 3em 0; }
 
-/* --- RESET --- */
+.contact-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1em 3em 2em 3em; }
 
-* {
-    margin: 0;
-    padding: 0;
-    color: inherit;
-    text-decoration: none;
-    list-style-type: none;
-    box-sizing: border-box;
-}
+.iconify {
+  font-size: 48px;
+  transition: transform .2s;
+  margin: 0 0.5em; }
 
-/* --- OTHER --- */
+.iconify:hover {
+  transform: scale(1.08) !important; }
 
-body {
-    font-family: 'Inter', sans-serif !important;
-    font-size: 16px;
-    color: #f2e9e4;
-}
+/* --- FOOTER --- */
+footer {
+  margin: 3em 0 1em 0; }
 
-.active, .iconify, .hero-title, .hero-subtitle, .hero-location, .project-title, .project-description, .gtmetrix-link, .btn-click, .paragraph, .contact-text, .footer-text {
-    color: #22223B;
-}
+.footer-text {
+  font-size: 0.7em;
+  text-align: center; }
 
-.subtitle {
+ol, ul {
+  padding: 0 0; }
+
+/* --- HOME / HERO SECTION --- */
+.hero {
+  background: url(../media/background-grey.webp) no-repeat center/cover;
+  height: 100vh;
+  margin: 0 0 1em 0; }
+
+.hero-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.hero-title {
+  margin: 0;
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  white-space: nowrap; }
+
+.hero-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.hero-icon {
+  font-size: 32px !important;
+  padding: 0.1em; }
+
+/* --- ABOUT --- */
+#about {
+  margin: 3em 0; }
+
+.mb-5 {
+  margin: 1em 3em 1em 3em !important; }
+
+.btn-cv {
+  margin: 2em 0 1em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-width: 100%; }
+
+/* --- MEDIA QUERIES --- */
+@media only screen and (min-width: 992px) {
+  .hero {
+    height: 100vh;
+    margin: 0 0 1em 0; }
+  .subtitle {
     font-size: 3em;
     font-weight: 900;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     color: #4A4E69;
-    opacity: 0.1;
-    margin: 0 1em;
-}
-
-/* --- HOME / HERO SECTION --- */
-
-.hero {
-    background: url(../media/background-grey.webp) no-repeat center/cover;
-    height: 100vh;
-    margin: 0 0 1em 0;
-}
-
-.hero-txt {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.hero-title {
-    margin: 0;
-    font-size: 5rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    white-space: nowrap;
-}
-
-.hero-list {
+    opacity: 0.1; }
+  .projects-section {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero-icon {
-    font-size: 32px !important;
-    padding: 0.1em;
-}
-
-/* --- ABOUT --- */
-
-#about {
-    margin: 3em 0;
-}
-
-.mb-5 {
-    margin: 1em 3em 1em 3em !important;
-}
-
-.btn-cv {
-    margin: 2em 0 1em 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    min-width: 100%;
-}
-
-/* --- PROJECTS --- */
-
-#projects {
-    margin: 3em 0;
-}
-
-.projects-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 3em;
-}
-
-.project-card {
-    width: 100%;
-    max-width: 450px;
-    height: auto;
-    margin: 1em;
-}
-
-.project-img {
-    width: 100%;
-    max-width: 450px;
-    height: auto;
-    margin: 0 0 1em 0;
+    justify-content: space-around;
+    text-align: center; }
+  .iconify {
+    font-size: 64px;
     transition: transform .2s;
-}
-
-.project-img:hover {
-    transform: scale(1.08);
-}
-
-.gtmetrix-link {
-    text-decoration-line: none;
-}
-
-.gtmetrix-link:hover {
-    color: #9A8C98;
-}
-
-.tech-group, .btn-group {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 1em 0;
-}
-
-.tech-box {
-    border: 1.5px solid #9A8C98;
-    border-radius: .25rem;
-    background-color: white;
-    color: #9A8C98;
-    padding: 6px 12px;
-    font-size: 10px;
-    cursor: pointer;
-    margin: 0 0.5em;
-}
-
-.tech-div {
-    border-color: #9A8C98;
-}
-
-.tech-div:hover {
-    background-color: #9A8C98;
-    color: white;
-}
-
-.btn {
-    border: 1.5px solid #22223B;
-    background-color: white;
-    color: #22223B;
-    padding: 8px 16px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.btn-click {
-    border-color: #4A4E69;
-}
-
-.btn-click:hover {
-    background-color: #4A4E69;
-    color: white;
-}
-
-/* --- CONTACT --- */
-
-#contact {
-    margin: 3em 0;
-}
-
-.contact-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 1em 3em 2em 3em;
-}
-
-.iconify {
-    font-size: 48px;
-    transition: transform .2s;
-    margin: 0 0.5em;
-}
-
-.iconify:hover {
-    transform: scale(1.08) !important;
-}
-
-/* --- FOOTER --- */
-
-footer {
-    margin: 3em 0 1em 0;
-}
-
-.footer-text {
-    font-size: 0.7em;
-    text-align: center;
-}
-
-ol, ul {
-    padding: 0 0;
-}
-
-/* --- MEDIA QUERIES --- */
-
-@media only screen and (min-width: 992px) {
-    .hero {
-        height: 100vh;
-        margin: 0 0 1em 0;
-}
-
-    .subtitle {
-        font-size: 3em;
-        font-weight: 900;
-        text-transform: uppercase;
-        text-align: left;
-        color: #4A4E69;
-        opacity: 0.1;
-}
-
-    .projects-section {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        text-align: center;
-}
-
-    .iconify {
-        font-size: 64px;
-        transition: transform .2s;
-        margin: 0 1em;
-}
-
-}
+    margin: 0 1em; } }
 
 @media only screen and (max-width: 411px) {
-    .subtitle {
-        font-size: 3em;
-        font-weight: 900;
-        color: #4A4E69;
-        opacity: 0.1;
-        margin: 0 0;
-}
+  .subtitle {
+    font-size: 3em;
+    font-weight: 900;
+    color: #4A4E69;
+    opacity: 0.1;
+    margin: 0 0; }
+  .tech-group {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0.5em; }
+  .btn-group {
+    margin: 0 0; } }
 
-    .tech-group {
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 0.5em;
-}
+/* --- PROJECTS --- */
+#projects {
+  margin: 3em 0; }
 
-    .btn-group {
-        margin: 0 0;
-}
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 3em; }
 
-}
+.project-card {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin: 1em; }
+
+.project-img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin: 0 0 1em 0;
+  transition: transform .2s; }
+
+.project-img:hover {
+  transform: scale(1.08); }
+
+.gtmetrix-link {
+  text-decoration-line: none; }
+
+.gtmetrix-link:hover {
+  color: #9A8C98; }
+
+.tech-group, .btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 1em 0; }
+
+.tech-box {
+  border: 1.5px solid #9A8C98;
+  border-radius: .25rem;
+  background-color: white;
+  color: #9A8C98;
+  padding: 6px 12px;
+  font-size: 10px;
+  cursor: pointer;
+  margin: 0 0.5em; }
+
+.tech-div {
+  border-color: #9A8C98; }
+
+.tech-div:hover {
+  background-color: #9A8C98;
+  color: white; }
+
+.btn {
+  border: 1.5px solid #22223B;
+  background-color: white;
+  color: #22223B;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer; }
+
+.btn-click {
+  border-color: #4A4E69; }
+
+.btn-click:hover {
+  background-color: #4A4E69;
+  color: white; }
+
+/* --- RESET --- */
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box; }
+
+/* --- OTHER --- */
+body {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 16px;
+  color: #f2e9e4; }
+
+.active, .iconify, .hero-title, .hero-subtitle, .hero-location, .project-title, .project-description, .gtmetrix-link, .btn-click, .paragraph, .contact-text, .footer-text {
+  color: #22223B; }
+
+.subtitle {
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: #4A4E69;
+  opacity: 0.1;
+  margin: 0 1em; }

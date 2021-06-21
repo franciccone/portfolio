@@ -1,0 +1,52 @@
+/* --- MEDIA QUERIES --- */
+
+@media only screen and (min-width: 992px) {
+    .hero {
+        height: 100vh;
+        margin: 0 0 1em 0;
+    }
+
+    .subtitle {
+        font-size: 3em;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: left;
+        color: #4A4E69;
+        opacity: 0.1;
+    }
+
+    .projects-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .iconify {
+        font-size: 64px;
+        transition: transform .2s;
+        margin: 0 1em;
+    }
+
+}
+
+@media only screen and (max-width: 411px) {
+    .subtitle {
+        font-size: 3em;
+        font-weight: 900;
+        color: #4A4E69;
+        opacity: 0.1;
+        margin: 0 0;
+    }
+
+    .tech-group {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 0.5em;
+    }
+
+    .btn-group {
+        margin: 0 0;
+    }
+
+}

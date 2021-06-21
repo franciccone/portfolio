@@ -1,0 +1,22 @@
+/* --- CONTACT --- */
+
+#contact {
+    margin: 3em 0;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em 3em 2em 3em;
+}
+
+.iconify {
+    font-size: 48px;
+    transition: transform .2s;
+    margin: 0 0.5em;
+}
+
+.iconify:hover {
+    transform: scale(1.08) !important;
+}

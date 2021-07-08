@@ -15,6 +15,10 @@
     font-size: 48px;
     transition: transform .2s;
     margin: 0 0.5em;
+    @include desktop {
+        font-size: 64px;
+        margin: 0 1em;
+    }
 }
 
 .iconify:hover {

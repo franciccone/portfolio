@@ -1,7 +1,7 @@
+@import "mediaqueries";
 @import "contact";
 @import "footer";
 @import "hero";
-@import "mediaqueries";
 @import "projects";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
 
@@ -36,4 +36,10 @@ body {
     color: #4A4E69;
     opacity: 0.1;
     margin: 0 1em;
+    @include desktop {
+        text-align: left;
+    }
+    @include pixel2 {
+        margin: 0 0;
+    }
 }

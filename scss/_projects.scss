@@ -11,6 +11,10 @@
     align-items: center;
     text-align: center;
     margin: 0 3em;
+    @include large {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 .project-card {
@@ -46,6 +50,11 @@
     justify-content: center;
     align-items: center;
     margin: 0 0 1em 0;
+    @include pixel2 {
+        flex-wrap: wrap;
+        row-gap: 0.5em;
+        margin: 0 0;
+    }
 }
 
 .tech-box {

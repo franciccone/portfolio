@@ -1,3 +1,4 @@
+/* --- MEDIA QUERIES --- */
 /* --- CONTACT --- */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap");
 #contact {
@@ -13,6 +14,10 @@
   font-size: 48px;
   transition: transform .2s;
   margin: 0 0.5em; }
+  @media only screen and (min-width: 992px) {
+    .iconify {
+      font-size: 64px;
+      margin: 0 1em; } }
 
 .iconify:hover {
   transform: scale(1.08) !important; }
@@ -55,7 +60,7 @@ ol, ul {
   align-items: center; }
 
 .hero-icon {
-  font-size: 32px !important;
+  font-size: 42px;
   padding: 0.1em; }
 
 /* --- ABOUT --- */
@@ -73,42 +78,6 @@ ol, ul {
   width: auto;
   min-width: 100%; }
 
-/* --- MEDIA QUERIES --- */
-@media only screen and (min-width: 992px) {
-  .hero {
-    height: 100vh;
-    margin: 0 0 1em 0; }
-  .subtitle {
-    font-size: 3em;
-    font-weight: 900;
-    text-transform: uppercase;
-    text-align: left;
-    color: #4A4E69;
-    opacity: 0.1; }
-  .projects-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center; }
-  .iconify {
-    font-size: 64px;
-    transition: transform .2s;
-    margin: 0 1em; } }
-
-@media only screen and (max-width: 411px) {
-  .subtitle {
-    font-size: 3em;
-    font-weight: 900;
-    color: #4A4E69;
-    opacity: 0.1;
-    margin: 0 0; }
-  .tech-group {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 0.5em; }
-  .btn-group {
-    margin: 0 0; } }
-
 /* --- PROJECTS --- */
 #projects {
   margin: 3em 0; }
@@ -120,6 +89,10 @@ ol, ul {
   align-items: center;
   text-align: center;
   margin: 0 3em; }
+  @media only screen and (min-width: 1200px) {
+    .projects-section {
+      flex-direction: row;
+      justify-content: space-around; } }
 
 .project-card {
   width: 100%;
@@ -149,6 +122,11 @@ ol, ul {
   justify-content: center;
   align-items: center;
   margin: 0 0 1em 0; }
+  @media only screen and (max-width: 411px) {
+    .tech-group, .btn-group {
+      flex-wrap: wrap;
+      row-gap: 0.5em;
+      margin: 0 0; } }
 
 .tech-box {
   border: 1.5px solid #9A8C98;
@@ -208,3 +186,9 @@ body {
   color: #4A4E69;
   opacity: 0.1;
   margin: 0 1em; }
+  @media only screen and (min-width: 992px) {
+    .subtitle {
+      text-align: left; } }
+  @media only screen and (max-width: 411px) {
+    .subtitle {
+      margin: 0 0; } }

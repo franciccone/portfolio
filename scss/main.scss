@@ -1,4 +1,5 @@
 @import "mediaqueries";
+@import "colors";
 @import "contact";
 @import "footer";
 @import "hero";
@@ -21,11 +22,11 @@
 body {
     font-family: 'Inter', sans-serif !important;
     font-size: 16px;
-    color: #f2e9e4;
+    color: $isabeline-color;
 }
 
 .active, .iconify, .hero-title, .hero-subtitle, .hero-location, .project-title, .project-description, .gtmetrix-link, .btn-click, .paragraph, .contact-text, .footer-text {
-    color: #22223B;
+    color: $space-cadet-color;
 }
 
 .subtitle {
@@ -33,7 +34,7 @@ body {
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
-    color: #4A4E69;
+    color: $independence-color;
     opacity: 0.1;
     margin: 0 1em;
     @include desktop {

@@ -41,7 +41,7 @@
 }
 
 .gtmetrix-link:hover {
-    color: #9A8C98;
+    color: $heliotrope-gray-color;
 }
 
 .tech-group, .btn-group {
@@ -58,39 +58,35 @@
 }
 
 .tech-box {
-    border: 1.5px solid #9A8C98;
+    border: 1.5px solid $heliotrope-gray-color;
     border-radius: .25rem;
-    background-color: white;
-    color: #9A8C98;
+    background-color: $white-color;
+    color: $heliotrope-gray-color;
     padding: 6px 12px;
     font-size: 10px;
     cursor: pointer;
     margin: 0 0.5em;
 }
 
-.tech-div {
-    border-color: #9A8C98;
+.tech-div, .btn-click {
+    border-color: $heliotrope-gray-color;
 }
 
 .tech-div:hover {
-    background-color: #9A8C98;
-    color: white;
+    background-color: $heliotrope-gray-color;
+    color: $white-color;
 }
 
 .btn {
-    border: 1.5px solid #22223B;
-    background-color: white;
-    color: #22223B;
+    border: 1.5px solid $space-cadet-color;
+    background-color: $white-color;
+    color: $space-cadet-color;
     padding: 8px 16px;
     font-size: 16px;
     cursor: pointer;
 }
 
-.btn-click {
-    border-color: #4A4E69;
-}
-
 .btn-click:hover {
-    background-color: #4A4E69;
-    color: white;
+    background-color: $independence-color;
+    color: $white-color;
 }

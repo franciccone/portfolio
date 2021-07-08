@@ -1,4 +1,5 @@
 /* --- MEDIA QUERIES --- */
+/* ---------- COLORS ---------- */
 /* --- CONTACT --- */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap");
 #contact {
@@ -131,34 +132,31 @@ ol, ul {
 .tech-box {
   border: 1.5px solid #9A8C98;
   border-radius: .25rem;
-  background-color: white;
+  background-color: #FFFFFF;
   color: #9A8C98;
   padding: 6px 12px;
   font-size: 10px;
   cursor: pointer;
   margin: 0 0.5em; }
 
-.tech-div {
+.tech-div, .btn-click {
   border-color: #9A8C98; }
 
 .tech-div:hover {
   background-color: #9A8C98;
-  color: white; }
+  color: #FFFFFF; }
 
 .btn {
   border: 1.5px solid #22223B;
-  background-color: white;
+  background-color: #FFFFFF;
   color: #22223B;
   padding: 8px 16px;
   font-size: 16px;
   cursor: pointer; }
 
-.btn-click {
-  border-color: #4A4E69; }
-
 .btn-click:hover {
   background-color: #4A4E69;
-  color: white; }
+  color: #FFFFFF; }
 
 /* --- RESET --- */
 * {
@@ -173,7 +171,7 @@ ol, ul {
 body {
   font-family: 'Inter', sans-serif !important;
   font-size: 16px;
-  color: #f2e9e4; }
+  color: #F2E9E4; }
 
 .active, .iconify, .hero-title, .hero-subtitle, .hero-location, .project-title, .project-description, .gtmetrix-link, .btn-click, .paragraph, .contact-text, .footer-text {
   color: #22223B; }

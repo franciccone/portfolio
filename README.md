@@ -22,4 +22,4 @@ Live Preview: [See](https://franciccone.github.io/portfolio/)
 
 ## Author
 
-[Francisco Ciccone](https://github.com/franciccone)
+[Francisco Ciccone](https://franciccone.github.io/portfolio/)
